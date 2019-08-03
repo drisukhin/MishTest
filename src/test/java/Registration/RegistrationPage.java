@@ -21,7 +21,6 @@ public class RegistrationPage {
     private By passwordField = By.id("newpasswordinput");
     private By passwordFiled2 = By.id("confirmnewpasswordinput");
     private By createAccoutButton = By.id("adduserrequest");
-   // private By titleAssertTest = By.xpath("//div[contains(text(),'Main information')]");
 
 
     public RegistrationPage realName(String name) {
@@ -63,6 +62,4 @@ public class RegistrationPage {
         driver.findElement(createAccoutButton).click();
         return this;
     }
-
-
 }

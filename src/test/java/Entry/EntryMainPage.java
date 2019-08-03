@@ -16,6 +16,7 @@ public class EntryMainPage {
     private By passField = By.id("passwordinput");
     private By signInButton = By.id("signinrequest");
 
+
     public EntryMainPage closeButtonClick() {
         driver.findElement(closeButton).click();
         return this;
@@ -42,4 +43,5 @@ public class EntryMainPage {
         driver.findElement(signInButton).click();
         return this;
     }
+
 }
